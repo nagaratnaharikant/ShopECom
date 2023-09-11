@@ -1,0 +1,33 @@
+footer ul li a {
+    font-size: 14px;
+    color: #fff;
+    transition: all .3s;
+}
+
+footer ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+footer .under-footer ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+footer .under-footer ul li a {
+    font-size: 22px;
+}
+.footer ul li {
+    transition: all .5s;
+}
+.fa-facebook-f:hover, .fa-x-twitter:hover, .fa-linkedin-in:hover, .fa-instagram:hover {
+    color: darkorange !important;
+}
+
