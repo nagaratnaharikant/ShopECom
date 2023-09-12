@@ -3,8 +3,10 @@ import {Route, Routes} from 'react-router-dom';
 import Mens from '../components/category/Mens';
 import Womens from '../components/category/Womens';
 import Kids from '../components/category/Mens';
-import Products from '../components/explore/Products';
 import Home from '../components/Home/Home';
+import Products from '../components/explore/Products/Products';
+import NewProducts from '../components/explore/Products/NewProducts';
+import ProductDetails from '../components/explore/Products/ProductDetails';
 
 export default function Routing() {
   return (
@@ -14,6 +16,8 @@ export default function Routing() {
         <Route path='/womens' element={<Womens />} />
         <Route path='/kids' element={<Kids />} />
         <Route path='/products' element={<Products />} />
+        <Route path='/newProduct' element={<NewProducts />} />
+        <Route path='/productDetail' element={<ProductDetails />} />
     </Routes>
   )
 }

@@ -1,0 +1,35 @@
+.card-img-top {
+    height: 27rem !important;
+    object-fit: fill !important;
+    object-position: center !important;
+}
+
+.card-title {
+    padding: 20px 0;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.w-85 {
+    width: 92%;
+}
+.card-img-overlay .nav-item {
+    background-color: white;
+}
+
+.card-img-overlay .nav-item:hover {
+    background-color: orange;
+}
+
+.mt-custom {
+    margin-top: 10rem !important;
+}
+.card-img-overlay {
+    visibility: hidden !important;
+}
+.card:hover .card-img-overlay {
+    visibility: visible !important;
+}
+
