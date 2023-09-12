@@ -58,7 +58,7 @@ export default function Products() {
         <div className="row">
           <div className="col-lg-12">
             <div className="section-heading mb-3">
-              <h2 className="text-center">Our Latest Products</h2>
+              <h2 className="text-center pt-5">Our Latest Products</h2>
               <p className="fst-italic text-muted text-center">
                 Check out all of our products.
               </p>

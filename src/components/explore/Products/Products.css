@@ -26,7 +26,7 @@
 .mt-custom {
     margin-top: 10rem !important;
 }
-.card-img-overlay {
+.product .card-img-overlay {
     visibility: hidden !important;
 }
 .card:hover .card-img-overlay {

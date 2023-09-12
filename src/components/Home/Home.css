@@ -1,3 +1,4 @@
+
 .discover {
     visibility: hidden;
     width: 85%;
@@ -7,11 +8,20 @@
     transition: all .5s ease-in-out;
 
 }
-
-.card:hover .discover{
+.text-center{
+    text-align: center !important;
+}
+.card:hover .discover {
     visibility: visible;
     opacity: 1;
     transition: all .5s ease-in-out;
+}
+.card-content {
+    height: 5rem;
+    margin: auto 0;
+}
+.card:hover .card-content {
+    visibility: hidden !important;
 }
 
 .subscribe {

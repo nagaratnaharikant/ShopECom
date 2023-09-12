@@ -5,14 +5,13 @@ import grid3 from "../../assets/images/grid3.jpg";
 import grid4 from "../../assets/images/grid4.jpg";
 import leftbanner from "../../assets/images/leftbanner.jpg";
 import "./Home.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Subscribe from "../subscribe/Subscribe";
 
 export default function Home() {
   return (
     <>
       <div className="container-fluid mt-5 pt-5">
-        <div className="row mt-5 pt-5">
+        <div className="row pt-3">
           <div className="col-md-5 d-flex flex-wrap justfy-items-center align-content-center">
             <div className="card rounded-0 bg-dark text-white">
               <img
@@ -42,11 +41,11 @@ export default function Home() {
                     className="card-img rounded-0"
                     alt="left banner"
                   />
-                  <div className="card-img-overlay ms-2 mt-5 d-none d-md-block">
-                    <h3 className="card-title fw-bolder">Women</h3>
-                    <i className="mt-2 card-text text-start">
+                  <div className="card-img-overlay ms-2 card-content d-none d-md-block">
+                    <h3 className="align-self-center card-title fw-bolder text-center">Women</h3>
+                    <p className="mt-2 card-text text-center">
                       Best Cloths for Women
-                    </i>
+                    </p>
                   </div>
                   <div className="discover bg-dark card-img-overlay rounded-0">
                     <h3 className="card-title fw-bolder mt-4">Women</h3>
@@ -63,11 +62,11 @@ export default function Home() {
                     className="card-img rounded-0"
                     alt="left banner"
                   />
-                  <div className="card-img-overlay ms-2 mt-5 d-none d-md-block">
-                    <h3 className="card-title fw-bolder">Men</h3>
-                    <i className="mt-2 card-text text-start">
+                  <div className="card-img-overlay ms-2 card-content d-none d-md-block">
+                    <h3 className="card-title fw-bolder text-center">Men</h3>
+                    <p className="mt-2 card-text text-center">
                       Best Cloths for Men
-                    </i>
+                    </p>
                   </div>
                   <div className="discover bg-dark card-img-overlay rounded-0">
                     <h3 className="card-title fw-bolder mt-4">Men</h3>
@@ -86,11 +85,11 @@ export default function Home() {
                     className="card-img rounded-0"
                     alt="left banner"
                   />
-                  <div className="card-img-overlay ms-2 mt-5 d-none d-md-block">
-                    <h3 className="card-title fw-bolder">Kids</h3>
-                    <i className="mt-2 card-text text-start">
+                  <div className="card-img-overlay ms-2 d-none d-md-block card-content">
+                    <h3 className="card-title fw-bolder text-center">Kids</h3>
+                    <p className="mt-2 card-text text-center">
                       Best Cloths for Kids
-                    </i>
+                    </p>
                   </div>
                   <div className="discover bg-dark card-img-overlay rounded-0">
                     <h3 className="card-title fw-bolder mt-4">Kids</h3>
@@ -107,11 +106,11 @@ export default function Home() {
                     className="card-img rounded-0"
                     alt="left banner"
                   />
-                  <div className="card-img-overlay ms-2 mt-5 d-none d-md-block">
-                    <h3 className="card-title fw-bolder">Accessories</h3>
-                    <i className="mt-2 card-text text-start">
+                  <div className="card-img-overlay ms-2 d-none d-md-block card-content">
+                    <h3 className="card-title fw-bolder text-center">Accessories</h3>
+                    <p className="mt-2 card-text text-center">
                       Trending Accessories
-                    </i>
+                    </p>
                   </div>
                   <div className="discover bg-dark card-img-overlay rounded-0">
                     <h3 className="card-title fw-bolder mt-4">Trending</h3>
