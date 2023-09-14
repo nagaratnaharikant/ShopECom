@@ -16,8 +16,8 @@ export default function Routing() {
         <Route path='/womens' element={<Womens />} />
         <Route path='/kids' element={<Kids />} />
         <Route path='/products' element={<Products />} />
+        <Route path='/products/:id' element={<ProductDetails />} />
         <Route path='/newProduct' element={<NewProducts />} />
-        <Route path='/productDetail' element={<ProductDetails />} />
     </Routes>
   )
 }

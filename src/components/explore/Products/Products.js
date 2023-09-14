@@ -47,7 +47,7 @@ export default function Products() {
       });
     };
     getProducts();
-  }, [pageNo, products]);
+  }, [pageNo]);
 
   const newProductHandler = () => {
     navigate("/newProduct");
@@ -89,17 +89,17 @@ export default function Products() {
                 <div className="navbar navbar-expand-lg navbar-light card-img-overlay">
                   <ul className="navbar-nav mt-custom mx-auto">
                     <li className="nav-item m-2 p-2">
-                      <Link className="nav-link" to="/productDetail">
+                      <Link className="nav-link" to={`/products/${product.id}`}>
                         <i className="fa fa-eye"></i>
                       </Link>
                     </li>
                     <li className="nav-item m-2 p-2">
-                      <Link className="nav-link" to="/productDetail">
+                      <Link className="nav-link">
                         <i className="fa fa-star"></i>
                       </Link>
                     </li>
                     <li className="nav-item m-2 p-2">
-                      <Link to="/productDetail" className="nav-link">
+                      <Link className="nav-link">
                         <i className="fa fa-shopping-cart"></i>
                       </Link>
                     </li>

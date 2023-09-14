@@ -1,0 +1,8 @@
+.product-det {
+    margin: 9rem auto 5rem auto;
+    max-width: 80%;
+}
+
+.product-det img {
+    max-height: 500px;
+}
