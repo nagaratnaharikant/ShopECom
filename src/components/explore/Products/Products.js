@@ -12,12 +12,15 @@ import {
 import Rating from "../../Rating/Rating";
 import Pagination from "../../pagination/Pagination";
 import { Link, useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { add_to_cart } from "../../../redux/product-actons/ProductActions";
 
 export default function Products() {
   const [products, setProducts] = useState([]);
   const [pageNo, setPageNo] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const getProducts = async () => {
@@ -99,9 +102,9 @@ export default function Products() {
                       </Link>
                     </li>
                     <li className="nav-item m-2 p-2">
-                      <Link className="nav-link">
+                      <button className="nav-link" onClick={() => dispatch(add_to_cart(product))}>
                         <i className="fa fa-shopping-cart"></i>
-                      </Link>
+                      </button>
                     </li>
                   </ul>
                 </div>

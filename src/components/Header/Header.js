@@ -84,14 +84,19 @@ export default function Header() {
                 </ul>
               </li>
             </ul>
-            <FontAwesomeIcon
-              className="me-3"
-              icon="fa-solid fa-cart-arrow-down"
-            />
-
+            <Link to="/cart">
+              <FontAwesomeIcon
+                className="me-3"
+                icon="fa-solid fa-cart-arrow-down"
+              />
+            </Link>
             <form className="d-flex">
               <div className="input-box">
-                <input type="text" className="form-control" placeholder="Search..."/>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Search..."
+                />
                 <FontAwesomeIcon
                   className="search-icon"
                   icon="fa-solid fa-magnifying-glass"

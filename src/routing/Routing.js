@@ -7,6 +7,7 @@ import Home from '../components/Home/Home';
 import Products from '../components/explore/Products/Products';
 import NewProducts from '../components/explore/Products/NewProducts';
 import ProductDetails from '../components/explore/Products/ProductDetails';
+import Cart from '../components/cart/Cart';
 
 export default function Routing() {
   return (
@@ -18,6 +19,7 @@ export default function Routing() {
         <Route path='/products' element={<Products />} />
         <Route path='/products/:id' element={<ProductDetails />} />
         <Route path='/newProduct' element={<NewProducts />} />
+        <Route path='/cart' element={<Cart />} />
     </Routes>
   )
 }

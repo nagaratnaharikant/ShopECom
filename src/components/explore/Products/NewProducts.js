@@ -17,13 +17,14 @@ export default function NewProducts() {
               class="form-control"
               id="title"
               aria-describedby="emailHelp"
+              placeholder="Enter title..."
             />
           </div>
           <div class="mb-3">
             <label for="formFile" class="form-label">
               Product Image
             </label>
-            <input class="form-control" type="file" id="formFile" />
+            <input class="form-control" type="text" id="prodImage" placeholder="Enter image URL..."/>
           </div>
           <div class="mb-3 form-check p-0">
             <label for="exampleDataList" class="form-label">
@@ -51,6 +52,7 @@ export default function NewProducts() {
               class="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
+              placeholder="Enter description..."
             ></textarea>
           </div>
           <div class="mb-3">
@@ -64,6 +66,7 @@ export default function NewProducts() {
               id="title"
               aria-describedby="emailHelp"
               min="1"
+              placeholder="Enter price..."
             />
           </div>
           <button type="submit" class="btn btn-primary">
@@ -72,7 +75,7 @@ export default function NewProducts() {
         </form>
       </div>
       <div className="col-md-4 mt-5">
-        <h3 className="mt-4 text-center">Binding data</h3>
+        <h3 className="mt-4 text-center">Entered Data</h3>
       </div>
       <div className="col-md-2"></div>
     </div>
